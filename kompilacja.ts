@@ -11,3 +11,9 @@ let b: number[] = [1,2,3];
 
 //typowanie tablicy do dwóch rodzajów (numer i string)
 let c: (number | string)[] = [1,2,'abc'];
+
+//typowanie funkcji
+function f(b: string, c: number, d: boolean) {
+
+}
+f('fsdf', 4, true);

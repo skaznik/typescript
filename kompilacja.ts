@@ -17,3 +17,12 @@ function f(b: string, c: number, d: boolean) {
 
 }
 f('fsdf', 4, true);
+
+
+//typowanie zwracanego typu z funckji
+
+function f1(e: number): number {
+    return e;
+}
+
+let ff: number = f1(1);
